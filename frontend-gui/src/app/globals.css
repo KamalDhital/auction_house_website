@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+  position: relative;
+  left: 10px;
+  top: 0px;
+  display: flex;
+  flex-direction: column
+  }
+.logo1{
+  font-size: 13px;
+}
+
+.authorizeButtons{
+  position: fixed;
+  right: 10px;
+  top: 15px;
+  display: flex;
+  gap: 15px;
+  
+}
+
+.loginbutton{
+  font: bold 14px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+.createaccountbutton{
+  font: bold 14px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+.adminloginbutton{
+  font: bold 14px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+.search{
+  position: relative;
+  left: 10px;
+  top: 12px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.searchButton{
+  position: relative;
+  left: 500px;
+  top: -62px;
+  display: flex;
+}
+
+.searchbutton{
+  font: bold 14px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+.inputbox{
+  border: 1px solid #000000;
+  width: 318px
+}
+
+.inputbox1{
+  border: 1px solid #000000;
+  width: 100px
+}
+.priceRange{
+  margin-top: 10px;
+}
+.filter{
+  position: relative;
+  left: 10px;
+  top: 10px;
+  display: flex;
+  }
+.menubox{
+  border: 1px solid #000000;
+}
+
+.table-container{
+  position: absolute;
+  left: 10%;
+  width: 100%;
+  padding: 50px;
+}
+
+.table{
+  width: 80%;
+}
+
+.table th {
+  height: 70px;
+  font-weight: bold;
+}
+
+
+
+.table td {
+  border-top: 1px solid #ddd;
+  padding: 8px 20px;
+}
+
+.table tbody tr:first-child td {
+  border-top: none;
+}
+
+.table tbody tr:nth-child(n) td {
+  background: #eff0f0;
+}
+
+.table tbody tr:nth-child(2n) td {
+  background: #fff;
+}
+
+.sort-button {
+  background-color: transparent;
+  border: none;
+
+  padding: 5px 10px;
+  margin: 0;
+  line-height: 1;
+  font-size: 15px;
+  color: black;
+  cursor: pointer;
+
+
+}
+
+.sort-reverse {
+  transform: rotate(180deg);
+}

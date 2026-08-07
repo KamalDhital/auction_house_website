@@ -1,0 +1,13 @@
+{
+  "name": "upload",
+  "version": "1.0.0",
+  "description": "List Constants",
+  "main": "index.mjs",
+  "repository": "TBA",
+  "author": "SAM CLI",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0"
+  }
+}
